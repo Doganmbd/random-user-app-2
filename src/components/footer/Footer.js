@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <a
-        href="https://github.com/edwardBenedict"
+        href="https://github.com/Doganmbd"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
@@ -18,7 +18,7 @@ const Footer = () => {
         alt="design"
         style={{ width: "40px", margin: "0  25px 0 10px" }}
       />
-      <span>design</span>
+      <span>design {new Date().getFullYear()}</span>
     </div>
   );
 };
