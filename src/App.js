@@ -5,9 +5,9 @@ import womanSvg from "./assets/woman.svg";
 import manAgeSvg from "./assets/growing-up-man.svg";
 import womanAgeSvg from "./assets/growing-up-woman.svg";
 import mapSvg from "./assets/map.svg";
+import mbdlogo from "./assets/mbdlogo.jpg";
 import phoneSvg from "./assets/phone.svg";
 import padlockSvg from "./assets/padlock.svg";
-import cwSvg from "./assets/cw.svg";
 import Footer from "./components/footer/Footer";
 
 const url = "https://randomuser.me/api/";
@@ -74,7 +74,7 @@ function App() {
   return (
     <main>
       <div className="block bcg-orange">
-        <img src={cwSvg} alt="cw" id="cw" />
+        <img src={mbdlogo} alt="cw" id="cw" />
       </div>
       <div className="block">
         <div className="container">
